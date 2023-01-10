@@ -1,6 +1,6 @@
-# youtube-transcript-summarizer
+# Youtube Transcript Summarizer
 
-<!-- ![Logo](https://github.com/venisprajapati/youtube-transcript-summarizer/youtube-transcript-summarizer-web-browser-extension/blob/main/icon.png -->
+![Logo](https://github.com/venisprajapati/youtube-transcript-summarizer/blob/main/youtube-transcript-summarizer-web-browser-extension/icon.png)
 
 This project is an integration of web development and the very emerging technology, Machine Learning. This Project aims to provide summarized documentation of a video that are too long to be watched. Today education is more dependent on online sources rather than the offline source, and no one has much time to spent on lecture videos that are too long to watch. So, to resolve this, there should be a tool which can provide a summarization of the video and therefor save time.
 
@@ -14,6 +14,9 @@ Enormous number of video recordings are being created and shared on the YouTube 
 - Get Transcripts of videos of any length.
 - Get Summarization of video of any language.
 - Downloadable Transcripts.
+
+- [Screen-shots](https://github.com/venisprajapati/youtube-transcript-summarizer/tree/main/screen-shots)
+- [Result Analysis Reports](https://github.com/venisprajapati/youtube-transcript-summarizer/blob/main/youtube-transcript-summarizer-api/Result_Analysis_Reports.pdf)
 
 
 ## Installation
