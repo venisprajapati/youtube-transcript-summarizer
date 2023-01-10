@@ -65,5 +65,6 @@ Please make sure to update tests as appropriate.
 - [@Venis_Prajapati](https://www.github.com/venisprajapati)
 - [@Virag_Patel](https://www.github.com/19IT114)
 
+### [Click here](https://user-images.githubusercontent.com/61548445/149874631-bc411249-2d05-4e0c-ac29-dfb93de78a82.png) to have a look at the poster of the project.
 
 *thank you*
