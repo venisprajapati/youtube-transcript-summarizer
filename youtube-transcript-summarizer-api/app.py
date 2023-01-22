@@ -13,7 +13,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-@app.route('/api/', methods=['GET'])
+@app.route('/api', methods=['GET'])
 def respond():
 
     # Retrieve the video_id from url parameter

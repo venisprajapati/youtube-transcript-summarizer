@@ -14,28 +14,39 @@ class BackendAPI extends React.Component {
 			error: null,
 			isLoaded: false,
 			isLoading: false,
-			failedMessage: null
+			failedMessage: null,
+			message: '',
+			englishTranscript: '',
+			hindiTranscript: '',
+			gujaratiTranscript: '',
+			originalTextLength: '',
+			summarizedTextLength: '',
+			brailleText: ''
 		};
 	}
 
 	handleChange = (event) => {
-
+		console.log('handle change', event)
 		this.setState({ [event.target.name]: event.target.value });
 	}
 
 	handleSubmit = (event) => {
+
+		event.preventDefault();
 
 		this.setState({
 			isLoading: true,
 			isLoaded: false
 		});
 
-		var FinalURL = `http://127.0.0.1:5000/api/?video_url=${this.state.name}`;
+		var FinalURL = `http://127.0.0.1:5000/api?video_url=${this.state.name}`;
 
 		fetch(FinalURL)
 			.then(res => res.json())
 			.then(
 				(result) => {
+					console.log(result.data.message);
+					console.log('result', result);
 					if (result.data.message === "Success") {
 						this.setState({
 							isLoaded: true,
@@ -48,6 +59,7 @@ class BackendAPI extends React.Component {
 							summarizedTextLength: result.data.final_summ_length,
 							brailleText: braille.toBraille(result.data.eng_summary)
 						});
+						console.log('state', this.state);
 					} else {
 						this.setState({
 							isLoaded: true,
@@ -66,8 +78,6 @@ class BackendAPI extends React.Component {
 					});
 				}
 			)
-
-		event.preventDefault();
 	}
 
 	stopAudio = () => {
