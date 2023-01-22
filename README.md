@@ -1,5 +1,7 @@
 # Youtube Transcript Summarizer
 
+# 🛑 *Maintenance for this repository has been stopped* 🛑
+
 <!-- ![Logo](youtube-transcript-summarizer-web-browser-extension/icon.png?raw=true) -->
 
 This project is an integration of web development and the very emerging technology, Machine Learning. This Project aims to provide summarized documentation of a video that are too long to be watched. Today education is more dependent on online sources rather than the offline source, and no one has much time to spent on lecture videos that are too long to watch. So, to resolve this, there should be a tool which can provide a summarization of the video and therefor save time.
@@ -7,14 +9,6 @@ This project is an integration of web development and the very emerging technolo
 ## Solution Approach
 Enormous number of video recordings are being created and shared on the YouTube throughout the day. It becomes really difficult to spend time in watching such videos which may have a longer duration than expected and sometimes our efforts may become futile if we aren’t able to find relevant information out of it. Summarizing transcripts of such videos will allows us to quickly look out for the important patterns in the video and helps us to save time and efforts to go through the whole content of the video.
 
-## Important Note
-* Support for this repository has no longer been given.
-* Backend works at default flask URL,
-```
-localhost:5000
-localhost:5000/api?video_url=https://www.youtube.com/watch?v={video id}
-localhost:5000/api?video_url=https://youtu.be/{video id}
-``` 
 
 ## Features
 
@@ -50,6 +44,12 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+Backend works at default flask URL,
+```
+localhost:5000
+localhost:5000/api?video_url=https://www.youtube.com/watch?v={video id}
+localhost:5000/api?video_url=https://youtu.be/{video id}
+``` 
 5. Now the API is set up to provide the response. Its time to start with **frontend**. Open command prompt (2) in the root directory of the project.
 ```
 cd youtube-transcript-summarizer-frontend
