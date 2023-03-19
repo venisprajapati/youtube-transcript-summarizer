@@ -1,6 +1,7 @@
 # Youtube Transcript Summarizer
 
 # 🛑 *Maintenance for this repository has been stopped* 🛑
+### *No updates as well as support will be given for this repository by developers*
 
 <!-- ![Logo](youtube-transcript-summarizer-web-browser-extension/icon.png?raw=true) -->
 
